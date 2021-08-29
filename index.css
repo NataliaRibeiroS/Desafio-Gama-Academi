@@ -1,0 +1,55 @@
+*{
+    margin: auto;
+    padding: 0.5px;
+    color: rgba(66, 7, 51, 0.781);
+    font-size: 25px ;
+    font: larger;
+    text-align: center; 
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    width: flex;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(#AB63C4, #12EBB2) no-repeat center center fixed;
+    display: flex;
+}
+
+.corpo{
+    box-shadow: 1px 1px 10px 1px #fff;
+    background-color: rgba(230, 230, 230, 0.89);
+    padding: 05px;
+    margin: 25px;
+}
+
+h1{
+    font-size: 40px;
+    border: thick double;
+    border: 1.5px solid #ccc;
+    border-color: rgba(240, 236, 236, 0.856);
+}
+
+.form input {
+    width: 50%;
+    margin: 20px;
+    padding: 25px 25px;
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    background: scroll rgba(223, 163, 208, 0.76);
+}
+
+label{
+    margin: 5px 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    margin-top: 0.5px;
+    padding: 10px;
+    border: 2px dashed #fff;
+    font-size: 5px;
+}

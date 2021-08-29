@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" media="" />
+    <title>JobsNet</title>
+</head>
+
+<body>
+    <header class="container">
+        <img src="./imagens/logo_empresa.png" width="25%" alt="">
+        <header />
+        <form>
+            <fieldset class="corpo">
+                <div class="cadastro"></div>
+                <h1> DADOS PESSOAIS </h1>
+                <fieldset class="dados">
+                    <label for="cargo"> Cargo Pretendido</label><br />
+                    <input type="text" id="cargo" placeholder="" required /><br />
+                    <label for="nome"> Nome Completo*</label><br />
+                    <input type="text" id="nome" placeholder="" required /><br />
+                    <label for="data"> Data de Nascimento*</label><br />
+                    <input type="date" id="data" placeholder="Dia" required /> <br />
+                    <label for="sexo"> Com qual genero você se idenifica?</label><br />
+                    <select id="sexo">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Feminino</option>
+                        <option>Masculino</option>
+                        <option>Prefiro não declarar</option>
+                    </select>
+                    <br />
+                    <label for="civil"> Estado Civil</label><br />
+                    <select id="civil">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Solteiro(a)</option>
+                        <option>Casado(a)</option>
+                        <option>Viúvo(a)</option>
+                    </select>
+                    <br />
+                </fieldset>
+                <br />
+                <fieldset class="endereco">
+                    <div class="endereco">
+                        <h1> ENDEREÇO </h1>
+                        <label for="logradouro"> Logradouro*</label><br />
+                        <input type="text" id="logradouro" placeholder="ex. Nome da Rua, 123, Bloco 1, Casa 123"
+                            required /><br />
+                        <label for="bairro"> Bairro*</label><br />
+                        <input type="text" id="bairro" placeholder="" required /><br />
+                        <label for="cidade"> Cidade*</label><br />
+                        <input type="text" id="cidade" placeholder="" required /><br />
+                        <label for="cep"> Cep</label><br />
+                        <input type="cep" id="cep" placeholder="" /><br />
+                    </div>
+                </fieldset>
+                <br />
+                <fieldset class="contato">
+                    <div class="contato">
+                        <h1> CONTATO </h1>
+                        <label for="telefone"> Telefone Fixo</label><br />
+                        <input type="telefone fixo" id="telefoneFixo" placeholder="" /><br />
+                        <label for="celular"> Celular</label><br />
+                        <input type="celular" id="celular" placeholder="" /><br />
+                        <label for="recado"> Deixar Recado</label><br />
+                        <input type="recado" id="recado" placeholder="Telefone" />
+                        <input type="text" id="recado" placeholder="Nome para Recado" /><br />
+                        <label for="email"> Email</label><br />
+                        <input type="email" id="email" placeholder="Deixe aqui seu melhor email" /><br />
+                </fieldset>
+                <br />
+                <fieldset class="documentos">
+                    <div class="documentos">
+                        <h1> DOCUMENTOS </h1>
+                        <label for="identidade"> Identidade*</label><br />
+                        <input type="identidade" id="identidade" placeholder="RG / Indentidade" required /><br />
+                        <label for="cpf"> CPF*</label><br />
+                        <input type="cpf" id="cpf" placeholder="" required /><br />
+                        <label for="veiculo"> Possui Veículo</label><br />
+                        <input type="veiculo" id="veiculo" placeholder="" /><br />
+                        <label for="habilitacao"> Habilitação</label><br />
+                        <input type="habilitação" id="habilitacao" placeholder="" /><br />
+                    </div>
+                </fieldset>
+            </fieldset>
+            <div class="form">
+                <form action=""> <input type="submit" value="Enviar Cadastro" /> </form>
+            </div>
+            </div>            
+        </form>
+        <footer>
+            <div id="redes sociais">
+                <ul>
+                    <li>
+                        <h3> Entre em Contato </h3>
+                        <a target="_blank" href="https://wa.me/21987455478"> (21) 97952-4718 </a>
+                        <a target="blank" href="mailto:teste@teste.com"> Email</a>
+                        <a target="_blank" href="https://github.com/NataliaRibeiroS"> GitHub</a>
+                        <a target="_blank" href="https://www.linkedin.com/in/natalia-ribeiro-s/"> Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+</body>
+
+</html>
